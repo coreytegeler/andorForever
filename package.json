@@ -1,0 +1,28 @@
+{
+  "name": "andorForever",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "sass": "sass -w assets/scss/style.scss:assets/css/prestyle.css",
+    "prefix" : "postcss -w -u autoprefixer assets/css/prestyle.css -o assets/css/style.css",
+    "coffee": "coffee -o assets/js/ -cw assets/coffee/",
+    "go": "npm run sass & npm run prefix & npm run coffee",
+    "ssh": "ssh root@162.243.9.116"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreytegeler/andorForever.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreytegeler/andorForever/issues"
+  },
+  "homepage": "https://github.com/coreytegeler/andorForever#readme",
+  "dependencies": {
+    "coffee-script": "1.10.0",
+    "node-sass": "3.8.0",
+    "autoprefixer": "^6.5.1",
+    "cssnano": "^3.8.0"
+  }
+}
