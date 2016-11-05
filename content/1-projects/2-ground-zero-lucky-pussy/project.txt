@@ -7,3 +7,11 @@ Text:
 ----
 
 Category: 
+
+----
+
+Tags: 
+
+----
+
+Materials: brick

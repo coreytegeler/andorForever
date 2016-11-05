@@ -9,6 +9,13 @@ fields:
   text:
     label: Text
     type:  textarea
-  category:
-    label: Categories
+  tags:
+    label: Tags
     type:  tags
+    index: siblings
+    help: Separate with with comma.
+  materials:
+    label: Materials
+    type:  tags
+    index: siblings
+    help: Separate with with comma.
