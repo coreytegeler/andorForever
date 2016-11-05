@@ -1,19 +1,19 @@
 @font-face {
   font-family: 'News Plantin MT Pro';
-  src: url("/assets/fonts/NewsPlantinMTPro-Regular.eot");
-  src: url("/assets/fonts/NewsPlantinMTPro-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/NewsPlantinMTPro-Regular.woff2") format("woff2"), url("/assets/fonts/NewsPlantinMTPro-Regular.woff") format("woff"), url("/assets/fonts/NewsPlantinMTPro-Regular.ttf") format("truetype"), url("/assets/fonts/NewsPlantinMTPro-Regular.svg#NewsPlantinMTPro-Regular") format("svg");
+  src: url("../fonts/NewsPlantinMTPro-Regular.eot");
+  src: url("../fonts/NewsPlantinMTPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NewsPlantinMTPro-Regular.woff2") format("woff2"), url("../fonts/NewsPlantinMTPro-Regular.woff") format("woff"), url("../fonts/NewsPlantinMTPro-Regular.ttf") format("truetype"), url("../fonts/NewsPlantinMTPro-Regular.svg#NewsPlantinMTPro-Regular") format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: 'News Plantin MT Std Bold';
-  src: url("/assets/fonts/NewsPlantinMTStd-Bold.eot");
-  src: url("/assets/fonts/NewsPlantinMTStd-Bold.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/NewsPlantinMTStd-Bold.woff2") format("woff2"), url("/assets/fonts/NewsPlantinMTStd-Bold.woff") format("woff"), url("/assets/fonts/NewsPlantinMTStd-Bold.ttf") format("truetype"), url("/assets/fonts/NewsPlantinMTStd-Bold.svg#NewsPlantinMTStd-Bold") format("svg");
+  src: url("../fonts/NewsPlantinMTStd-Bold.eot");
+  src: url("../fonts/NewsPlantinMTStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NewsPlantinMTStd-Bold.woff2") format("woff2"), url("../fonts/NewsPlantinMTStd-Bold.woff") format("woff"), url("../fonts/NewsPlantinMTStd-Bold.ttf") format("truetype"), url("../fonts/NewsPlantinMTStd-Bold.svg#NewsPlantinMTStd-Bold") format("svg");
   font-weight: 500;
   font-style: normal; }
 @font-face {
   font-family: 'News Plantin MT Std Italic';
-  src: url("/assets/fonts/NewsPlantinMTStd-Italic.eot");
-  src: url("/assets/fonts/NewsPlantinMTStd-Italic.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/NewsPlantinMTStd-Italic.woff2") format("woff2"), url("/assets/fonts/NewsPlantinMTStd-Italic.woff") format("woff"), url("/assets/fonts/NewsPlantinMTStd-Italic.ttf") format("truetype"), url("/assets/fonts/NewsPlantinMTStd-Italic.svg#NewsPlantinMTStd-Italic") format("svg");
+  src: url("../fonts/NewsPlantinMTStd-Italic.eot");
+  src: url("../fonts/NewsPlantinMTStd-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NewsPlantinMTStd-Italic.woff2") format("woff2"), url("../fonts/NewsPlantinMTStd-Italic.woff") format("woff"), url("../fonts/NewsPlantinMTStd-Italic.ttf") format("truetype"), url("../fonts/NewsPlantinMTStd-Italic.svg#NewsPlantinMTStd-Italic") format("svg");
   font-weight: 500;
   font-style: normal; }
 html {
