@@ -4,17 +4,17 @@ $ ->
 	$main = $('main')
 	$curtain = $('#curtain')
 	$stairs = $('#stairs')
-	# $body.on 'mousewheel', 'main', (e) ->
-	# 	if($stairs.is('.open'))
-	# 		return false
-	# 	y = parseInt($curtain.css('y')) - e.deltaY
-	# 	if y >= $(this).innerHeight()
-	# 		y = $(this).innerHeight()
-	# 	if y <= 0
-	# 		y = 0
-	# 	$curtain.transition
-	# 		y: y
-	# 	, 0
+	$body.on 'mousewheel', 'main', (e) ->
+		if($stairs.is('.open'))
+			return false
+		y = parseInt($curtain.css('y')) - e.deltaY
+		if y >= $(this).innerHeight()
+			y = $(this).innerHeight()
+		if y <= 0
+			y = 0
+		$curtain.transition
+			y: y
+		, 0
 
 	$body.on 'click', '.stair a', (e) ->
 		e.preventDefault()

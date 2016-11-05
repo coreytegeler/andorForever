@@ -7,6 +7,22 @@
     $main = $('main');
     $curtain = $('#curtain');
     $stairs = $('#stairs');
+    $body.on('mousewheel', 'main', function(e) {
+      var y;
+      if ($stairs.is('.open')) {
+        return false;
+      }
+      y = parseInt($curtain.css('y')) - e.deltaY;
+      if (y >= $(this).innerHeight()) {
+        y = $(this).innerHeight();
+      }
+      if (y <= 0) {
+        y = 0;
+      }
+      return $curtain.transition({
+        y: y
+      }, 0);
+    });
     return $body.on('click', '.stair a', function(e) {
       var $project, projectTop, scrollTop;
       e.preventDefault();
